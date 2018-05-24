@@ -34,24 +34,24 @@ sidebar:
             title: global.home
             url: /
             icon: home
-        categories:
-            title: global.categories
-            url: /all-categories
-            icon: bookmark
-        tags:
-            title: global.tags
-            url: /all-tags
-            icon: tags
-        archives:
-            title: global.archives
-            url: /all-archives
-            icon: archive
-        search:
-            title: global.search
-            url: /#search
-            icon: search
-            # `open-algolia-search` classes are used to open algolia search modal
-            class: open-algolia-search
+        # categories:
+        #     title: global.categories
+        #     url: /all-categories
+        #     icon: bookmark
+        # tags:
+        #     title: global.tags
+        #     url: /all-tags
+        #     icon: tags
+        # archives:
+        #     title: global.archives
+        #     url: /all-archives
+        #     icon: archive
+        # search:
+        #     title: global.search
+        #     url: /#search
+        #     icon: search
+        #     # `open-algolia-search` classes are used to open algolia search modal
+        #     class: open-algolia-search
         about:
             title: global.about
             url: /#about
@@ -81,15 +81,15 @@ sidebar:
         #     title: global.linkedin
         #     url: https://www.linkedin.com/profile/
         #     icon: linkedin
-        # mail:
-        #     title: global.mail
-        #     url: mailto:
-        #     icon: envelope-o
-    rss:
-        rss:
-            title: global.rss
-            url: /atom.xml
-            icon: rss
+        mail:
+            title: global.mail
+            url: mailto:lilymemomo@hotmail.com
+            icon: envelope-o
+    # rss:
+    #     rss:
+    #         title: global.rss
+    #         url: /atom.xml
+    #         icon: rss
 
 
 # --------------------
@@ -117,13 +117,13 @@ header:
 
 # Your biography and your job is editable in each languages files in `languages` folder
 author:
-    email:
+    email: lilymemomo@hotmail.com
     location:
     # Your profile picture located in folder `source/_images/` (development)
     # or in `source/assets/images/` (production)
     # or you can use an external url
     # Overwritten by your gravatar image if `gravatar_email` is filled
-    picture:
+    picture: profile.jpg
     # Your Twitter username without the @. E.g : `tranquilpeak`
     twitter:
     # Your personal google plus profile id, not your blog or business page id.
@@ -239,16 +239,17 @@ fb_app_id:
 # global:
 #     share_on_foo_bar: "Share on Foo Bar"
 # ```
-sharing_options:
-    facebook:
-        icon: "fa-facebook-official"
-        url: "https://www.facebook.com/sharer/sharer.php?u={{post.permalink}}"
-    twitter:
-        icon: "fa-twitter"
-        url: "https://twitter.com/intent/tweet?text={{post.permalink}}"
-    google_plus:
-        icon: "fa-google-plus"
-        url: "https://plus.google.com/share?url={{post.permalink}}"
+
+# sharing_options:
+#     facebook:
+#         icon: "fa-facebook-official"
+#         url: "https://www.facebook.com/sharer/sharer.php?u={{post.permalink}}"
+#     twitter:
+#         icon: "fa-twitter"
+#         url: "https://twitter.com/intent/tweet?text={{post.permalink}}"
+#     google_plus:
+#         icon: "fa-google-plus"
+#         url: "https://plus.google.com/share?url={{post.permalink}}"
     # Asian social networks
     # weibo:
     #     title: "Weibo"
